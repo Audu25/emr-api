@@ -46,5 +46,3 @@ How Kubernetes Deployments and Services work together
 How to expose and scrape metrics with Prometheus
 
 How DevOps workflows support real applications like EMR systems
-
-This project is part of my bigger plan to build a full DevOps/MLOps portfolio and become very strong in real-world cloud engineering.
