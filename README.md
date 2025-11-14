@@ -1,13 +1,13 @@
-EMR API – DevOps Practical Project
+**EMR API – DevOps Practical Project**
 
 This is a small Electronic Medical Records (EMR) API I worked on to improve my DevOps skills. I wanted to take a simple Python API and make it production-ready using Docker, Kubernetes, and proper monitoring. The whole idea was to practice how real-world healthcare applications are packaged, deployed, and observed.
 
-What I Built
+**What I Built**
 
 I containerized the API using Docker, wrote the Kubernetes manifests myself, and added Prometheus so I can scrape metrics from the service. I set this up as part of my journey to understand how DevOps and MLOps pipelines are built end-to-end.
 This helped me see how an app moves from local development → container → cluster → monitoring.
 
-Tech Stack I Used
+**Tech Stack I Used**
 
 Python – Basic API logic
 
@@ -19,7 +19,7 @@ Prometheus – Collecting metrics from the API
 
 Grafana – For dashboarding (optional for now)
 
-How I Run the Project
+**How I Run the Project**
 
 When I’m testing locally, I normally use Docker Compose:
 
@@ -35,7 +35,7 @@ kubectl get svc
 
 Prometheus will pick up the metrics based on the config in prometheus.yml.
 
-What I Learned
+**What I Learned**
 
 Working on this project helped me understand:
 
